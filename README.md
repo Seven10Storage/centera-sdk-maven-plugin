@@ -33,7 +33,7 @@ instdep.dependency-name: The artifact ID of the centera lib files installed on y
 instdep.dependency-group: The group ID of the centera lib files installed on your repo. The default
   value is "com.seven10"
   
-** Creating the dependency packages **
+**Creating the dependency packages**
 
 There is currently a project to automate the creation process of the lib files, however the legal status 
 of the re-distribution of the dependency files is unknown at this time. Fortunately, the lib files can also be 
@@ -51,7 +51,7 @@ For each platform you want to support:
     FPXML.dll
     pai_module.dll
 
-    *nix systems are bit more complicated as each file must be renamed. They usually come in the format
+    Unix and Linix systems are bit more complicated as each file must be renamed. They usually come in the format
     "lib<Library Name><register size>.so.<some version>" eg "libFPLibrary64.so.3.3.719". 
     The proper name format for each file is "lib<Library Name>.so" eg "libLibFPLibrary.so".
     These files can either be renamed by hand or by using the install script included with the respective archive.
